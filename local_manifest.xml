@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Github remote -->
-    <remote name="github" fetch="https://github.com/Orangeskai/" />
+    <remote name="mygithub" fetch="https://github.com/" />
 
     <!-- Sync trees -->
-    <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="github" revision="lineage-18.1-plus" />
-    <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="github" revision="DotOs" />
-    <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="github" revision="DotOs" clone-depth="1" />
-    <project path="vendor/realme" name="proprietary_vendor_realme" remote="github" revision="Dotos" />
+    <project path="device/realme/mt6785-common" name="Orangeskai/android_device_realme_mt6785-common" remote="mygithub" revision="lineage-18.1-plus" />
+    <project path="device/realme/RMX2001" name="Orangeskai/android_device_realme_RMX2001" remote="mygithub" revision="DotOs" />
+    <project path="kernel/realme/RMX2001" name="Orangeskai/android_kernel_realme_RMX2001" remote="mygithub" revision="DotOs" clone-depth="1" />
+    <project path="vendor/realme" name="Orangeskai/proprietary_vendor_realme" remote="mygithub" revision="Dotos" />
+    <project path="packages/apps/RealmeParts" name="officialputuid/android_packages_apps_RealmeParts" remote="mygithub" revision="11" />
+    <project path="packages/apps/RealmeDirac" name="officialputuid/android_packages_apps_RealmeDirac" remote="mygithub" revision="11" />
 </manifest>

@@ -4,10 +4,10 @@
     <remote name="github" fetch="https://github.com/" />
 
     <!-- Sync trees -->
-    <project path="device/realme/mt6785-common" name="officialputuid/android_device_realme_mt6785-common" remote="github" revision="11" />
-    <project path="device/realme/RMX2001" name="officialputuid/android_device_realme_RMX2001" remote="github" revision="11" />
-    <project path="kernel/realme/RMX2001" name="officialputuid/android_kernel_realme_RMX2001" remote="github" revision="11" clone-depth="1" />
-    <project path="vendor/realme" name="officialputuid/proprietary_vendor_realme" remote="github" revision="11" />
+    <project path="device/realme/mt6785-common" name="Orangeskai/android_device_realme_mt6785-common" remote="github" revision="lineage-18.1-plus" />
+    <project path="device/realme/RMX2001" name="Orangeskai/android_device_realme_RMX2001" remote="github" revision="DotOs" />
+    <project path="kernel/realme/RMX2001" name="Orangeskai/android_kernel_realme_RMX2001" remote="github" revision="DotOs" clone-depth="1" />
+    <project path="vendor/realme" name="Orangeskai/proprietary_vendor_realme" remote="github" revision="Dotos" />
 
     <!-- Packages Apps -->
     <project path="packages/apps/RealmeParts" name="officialputuid/android_packages_apps_RealmeParts" remote="github" revision="11" />
